@@ -1,0 +1,36 @@
+{
+    "name": "axalian/axtvdb-doctrine",
+    "description": "Doctrine ORM entities for use with axalian/axtvdb",
+    "license": "GPL-3.0",
+    "type": "library",
+    "version": "dev-master",
+    "keywords": [
+        "tvdb",
+        "doctrine",
+        "orm"
+    ],
+    "minimum-stability":"dev",
+    "homepage": "https://github.com/AxaliaN/AxTvDb-Doctrine",
+    "authors": [
+        {
+            "name": "Michel Maas",
+            "email": "michel@michelmaas.com",
+            "homepage": "http://www.michelmaas.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework": "2.*",
+        "axalian/axtvdb": "*",
+        "doctrine/orm": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "AxTvDbDoctrine": "src/"
+        },
+        "classmap": [
+            "./src/AxTvDb-Doctrine"
+        ]
+    }
+}
